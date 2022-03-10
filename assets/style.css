@@ -59,6 +59,16 @@ header nav ul li a {
     font-weight: bold;
 }
 
+/* Hero section */
+
+.hero {
+    background-image: url("./images/HeroBanner.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
 /*Footer guts*/
 
 .contact {
