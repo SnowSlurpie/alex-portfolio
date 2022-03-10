@@ -11,5 +11,5 @@ Thank you for taking the time to review my README.
 
 ### Credits
 
-My Icons are from Flaticon! You can find them here:
-    https://www.flaticon.com/
+My Icons are from Font Awesome! You can find them here:
+    https://www.fontawesome.com/
