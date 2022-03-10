@@ -24,13 +24,14 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 20px 10px 10px;
+    padding: 10px 0px 10px 10px;
 }
 
 header img {
     max-height: 300px;
     width: auto;
     box-shadow: var(--shadow);
+    position: right;
 }
 
 header nav {
@@ -63,12 +64,26 @@ header nav ul li a {
 
 .hero {
     background-image: url("./images/HeroBanner.jpg");
-    height: 400px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
+.hero h2 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 15px;
+    font-size: 45px;
+    text-shadow: var(--shadow);
+}
+
+.hero h2 span {
+    background-color: rgba(0, 0, 0, 0.5);
+    color:lightblue;
+    border-radius: 16px;
+}
 /*Footer guts*/
 
 .contact {
