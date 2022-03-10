@@ -1,3 +1,10 @@
+:root {
+    primary: #ececec
+    secondary: #385170;
+    alt: #142d4c;
+    --shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -26,12 +33,30 @@ header img {
     box-shadow: var(--shadow);
 }
 
+header nav {
+    margin:20px;
+}
+
 header h1 {
     color: var(--alt);
     font-size: 100px;
     font-weight: bold;
     padding: 50px;
     text-shadow: var(--shadow);
+}
+
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style:none;
+}
+
+header nav ul li a {
+    padding:8px;
+    font-size:20px;
+    margin: 20px 20px 0 0;
+    font-weight: bold;
 }
 
 /*Footer guts*/
@@ -49,5 +74,5 @@ header h1 {
 }
 
 .contact a {
-    font-size: 100px
+    font-size: 10px
 }
