@@ -1,7 +1,7 @@
 :root {
-    primary: #ececec
-    secondary: #385170;
-    alt: #142d4c;
+    --primary: #ececec
+    --secondary: #385170;
+    --alt: #142d4c;
     --shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -67,6 +67,7 @@ header nav ul li a {
     padding: 10px 0px;
     flex-direction: column;
     margin-bottom: 10px;
+    text-align:center;
 }
 
 .contact title {
