@@ -28,7 +28,7 @@ header {
 }
 
 header img {
-    max-height: 100px;
+    max-height: 300px;
     width: auto;
     box-shadow: var(--shadow);
 }
@@ -63,10 +63,10 @@ header nav ul li a {
 
 .hero {
     background-image: url("./images/HeroBanner.jpg");
-    height: 200px;
+    height: 400px;
     background-size: cover;
     background-position: center;
-    position:relative;
+    position: relative;
 }
 
 /*Footer guts*/
