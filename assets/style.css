@@ -42,7 +42,7 @@ header h1 {
     color: var(--alt);
     font-size: 100px;
     font-weight: bold;
-    padding: 50px;
+    padding:50px;
     text-shadow: var(--shadow);
 }
 
@@ -68,6 +68,7 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     position: relative;
+    border-radius: 16px;
 }
 
 .hero h2 {
@@ -83,6 +84,24 @@ header nav ul li a {
     background-color: rgba(0, 0, 0, 0.5);
     color:lightblue;
     border-radius: 16px;
+}
+
+/* About Me Guts*/
+
+.about {
+    display:flex;
+}
+
+.me {
+    justify-content: center;
+    padding: 30px,10px,10px,10px;
+}
+
+.me p {
+    text-align:center;
+    font-size: 25px;
+    line-height: 1.6;
+    text-shadow: var(--shadow);
 }
 /*Footer guts*/
 
