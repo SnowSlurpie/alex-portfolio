@@ -148,6 +148,19 @@ header nav ul li a {
     background-image: url("./images/run-buddy.png");
     background-position: none;
 }
+
+.soon {
+    background-image: url("./images/coming-soon.png")
+}
+
+.project-label {
+    position: relative;
+    float: right;
+    background-color: var(--alt);
+    color: var(--primary);
+    padding: 10px;
+    font-size: 20px;
+}
 /*Footer guts*/
 
 .contact {
@@ -165,4 +178,8 @@ header nav ul li a {
 
 .contact a {
     font-size: 10px
+}
+
+.image-grid {
+    width:100%
 }
