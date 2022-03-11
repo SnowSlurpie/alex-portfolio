@@ -202,7 +202,7 @@ header nav ul li a {
     padding: 10px 0px;
 }
 
-.contact title {
+.contact .title {
     color:black;
 }
 
@@ -229,15 +229,15 @@ header nav ul li a {
       text-align: center;
     }
   
-    .about-me {
+    .about {
       flex-direction: column;
       border-right: none;
     }
-    .my-work {
+    .work {
       flex-direction: column;
     }
   
-    .image-grid {
+    .img-grid {
       width: 100%;
     }
     .contact {
@@ -261,11 +261,12 @@ header nav ul li a {
       border-radius: 15px;
     }
   
-    .image-grid a {
+    .img-grid a {
       opacity: .75;
     }
   
-    .image-grid a:hover {
-      opacity: 6;
+    .img-grid a:hover {
+      opacity: 3;
     }
   } 
+
